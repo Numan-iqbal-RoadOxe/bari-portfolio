@@ -37,3 +37,4 @@ Then open the printed local URL (usually `http://localhost:5173`).
 - The custom cursor and cursor-following project preview automatically disable on touch devices.
 - Motion respects `prefers-reduced-motion`.
 # personal-portfolio
+# bari-portfolio
