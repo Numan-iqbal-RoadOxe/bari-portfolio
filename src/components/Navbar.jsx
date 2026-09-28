@@ -27,7 +27,7 @@ export default function Navbar() {
       <div className="container">
         <div className="navbar-inner">
           <a href="#top" className="logo-mark">
-            NI.
+            AB.
           </a>
           <nav className="nav-links">
             {links.map((l) => (

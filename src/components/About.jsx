@@ -1,11 +1,15 @@
 import { motion } from "framer-motion"
 
 const experience = [
-  { year: "2024 — Now", role: "Software Engineer", org: "Devfied" },
   {
-    year: "2022 — 2024",
-    role: "Associate Software Engineer",
-    org: "Roomcoders",
+    year: "2023 — 2025",
+    role: "AI/ML Developer",
+    org: "aBizsol, Lahore",
+  },
+  {
+    year: "2019 — 2023",
+    role: "BSc Information Technology",
+    org: "University of Education, Lahore",
   },
 ]
 
@@ -30,7 +34,8 @@ export default function About() {
         >
           <div className="eyebrow-label">About</div>
           <h2 className="section-heading" style={{ marginTop: 14 }}>
-            Four years of shipping solutions that solve real problems.
+            Building scalable software and machine learning models that deliver
+            real results.
           </h2>
         </motion.div>
 
@@ -43,17 +48,18 @@ export default function About() {
             variants={reveal}
           >
             <p>
-              I&apos;m a software engineer based in Lahore, Pakistan, with four
-              years of hands-on experience using technology to solve real-world
-              problems. I care about clean code and efficient APIs as much as
-              the interfaces they power.
+              I&apos;m Abdul Bari, a full-stack developer and machine learning
+              enthusiast from Pakistan. I care about writing clean code and
+              creating user-friendly, scalable solutions that deliver
+              high-quality results.
             </p>
             <p>
-              My work spans the full <strong>MERN stack</strong> — from building
-              real-time copy-trading platforms to Shopify plugins and internal
-              financial dashboards — and I&apos;m always looking to learn,
-              sharpen my skills, and make a meaningful impact on the teams I
-              work with.
+              My work spans <strong>MERN stack</strong> development and{" "}
+              <strong>machine learning</strong> — from sales forecasting and
+              churn prediction to CNN-based image classification, recommendation
+              systems, clustering, and anomaly detection for fraud analysis. I
+              hold a BSIT from the University of Education, Lahore, and I&apos;m
+              always exploring new research and sharpening my skills in AI.
             </p>
           </motion.div>
 

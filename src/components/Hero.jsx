@@ -41,7 +41,7 @@ export default function Hero() {
           </motion.div>
 
           <h1 className="hero-title">
-            {["Building interfaces", "that feel alive."].map((line, i) => (
+            {["Building models", "that learn and deliver."].map((line, i) => (
               <span className="line" key={line} style={{ display: "block" }}>
                 <motion.span
                   style={{ display: "inline-block" }}
@@ -62,9 +62,9 @@ export default function Hero() {
             animate="visible"
             variants={fade(0.6)}
           >
-            I&apos;m Numan Iqbal — a software engineer with 4 years turning
-            real-world problems into fast, efficient web applications that
-            clients rely on.
+            I&apos;m Abdul Bari — a full-stack developer and machine learning
+            enthusiast with 2+ years of experience building ML models for
+            prediction, classification, recommendation, and anomaly detection.
           </motion.p>
 
           <motion.div
@@ -88,16 +88,16 @@ export default function Hero() {
             variants={fade(0.9)}
           >
             <div>
-              <div className="hero-stat-num">4+</div>
+              <div className="hero-stat-num">2+</div>
               <div className="hero-stat-label">Years experience</div>
             </div>
             <div>
-              <div className="hero-stat-num">4+</div>
-              <div className="hero-stat-label">Projects shipped</div>
+              <div className="hero-stat-num">2</div>
+              <div className="hero-stat-label">Projects built</div>
             </div>
             <div>
-              <div className="hero-stat-num">70%</div>
-              <div className="hero-stat-label">Avg. app performance boost</div>
+              <div className="hero-stat-num">6</div>
+              <div className="hero-stat-label">ML problem types tackled</div>
             </div>
           </motion.div>
         </div>
@@ -122,7 +122,7 @@ export default function Hero() {
               className="orbit-node"
               style={{ top: -23, left: "50%", marginLeft: -23 }}
             >
-              ⚛️
+              🧠
             </span>
             <span className="orbit-node" style={{ bottom: -23, right: 40 }}>
               ✦
@@ -136,17 +136,13 @@ export default function Hero() {
               <span />
             </div>
             <div>
-              <span className="code-cm">// portfolio.jsx</span>
+              <span className="code-cm"># portfolio.py</span>
               <br />
-              <span className="code-kw">const</span>{" "}
-              <span className="code-fn">craft</span> = () =&gt; {"{"}
+              <span className="code-kw">def</span>{" "}
+              <span className="code-fn">train</span>(data):
               <br />
               &nbsp;&nbsp;<span className="code-kw">return</span>{" "}
-              <span className="code-str">
-                &apos;delight + performance&apos;
-              </span>
-              <br />
-              {"}"}
+              <span className="code-str">&apos;data + insight&apos;</span>
             </div>
           </div>
         </motion.div>

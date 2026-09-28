@@ -12,7 +12,7 @@ export default function Footer() {
         }}
       >
         <span>
-          &copy; {new Date().getFullYear()} Numan Iqbal. All rights reserved.
+          &copy; {new Date().getFullYear()} Abdul Bari. All rights reserved.
         </span>
         <span>Designed &amp; built with React + Framer Motion</span>
       </div>

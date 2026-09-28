@@ -1,36 +1,50 @@
-import { motion } from 'framer-motion'
-import { FiCode, FiFeather, FiLayers, FiZap } from 'react-icons/fi'
+import { motion } from "framer-motion"
+import { FiBarChart2, FiCpu, FiLayers, FiTrendingUp } from "react-icons/fi"
 
 const marqueeItems = [
-  'React', 'TypeScript', 'Framer Motion', 'Node.js', 'GraphQL', 'WebGL', 'Next.js', 'Accessibility',
+  "Python",
+  "MERN Stack",
+  "TensorFlow",
+  "Keras",
+  "Scikit-learn",
+  "Pandas",
+  "NumPy",
+  "Matplotlib",
+  "XGBoost",
+  "Java",
+  "C++",
 ]
 
 const capabilities = [
   {
-    icon: <FiCode />,
-    title: 'Engineering',
-    body: 'Component architecture, performance budgets, and type-safe codebases built to outlast a redesign.',
+    icon: <FiTrendingUp />,
+    title: "Predictive modeling",
+    body: "Sales forecasting and churn prediction, from data cleaning and feature selection to tuned, cross-validated models.",
   },
   {
-    icon: <FiFeather />,
-    title: 'Motion design',
-    body: 'Spring-based interactions that communicate state changes instead of decorating the page.',
+    icon: <FiCpu />,
+    title: "Deep learning",
+    body: "CNN-based image classification built with TensorFlow and Keras, using augmentation and regularization to generalise well.",
   },
   {
     icon: <FiLayers />,
-    title: 'Design systems',
-    body: 'Tokenized, themeable UI kits that keep a growing product visually consistent.',
+    title: "Recommendation & clustering",
+    body: "Recommendation systems, K-Means customer segmentation, and anomaly detection for fraud analysis.",
   },
   {
-    icon: <FiZap />,
-    title: 'Performance',
-    body: 'Bundle-splitting, image pipelines, and render profiling to keep Lighthouse in the high 90s.',
+    icon: <FiBarChart2 />,
+    title: "Data-driven communication",
+    body: "Model results visualised and presented clearly so stakeholders can act on the findings.",
   },
 ]
 
 const reveal = {
   hidden: { opacity: 0, y: 24 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.7, ease: [0.16, 1, 0.3, 1] } },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.7, ease: [0.16, 1, 0.3, 1] },
+  },
 }
 
 export default function Skills() {
@@ -40,7 +54,7 @@ export default function Skills() {
         <motion.div
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, margin: '-100px' }}
+          viewport={{ once: true, margin: "-100px" }}
           variants={reveal}
         >
           <div className="eyebrow-label">Capabilities</div>
@@ -53,7 +67,7 @@ export default function Skills() {
           className="skills-grid"
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, margin: '-100px' }}
+          viewport={{ once: true, margin: "-100px" }}
           variants={reveal}
         >
           {capabilities.map((c) => (
@@ -69,7 +83,10 @@ export default function Skills() {
       <div className="skills-marquee" style={{ marginTop: 90 }}>
         <div className="marquee-track">
           {[...marqueeItems, ...marqueeItems].map((item, i) => (
-            <span key={`${item}-${i}`}><em>✦</em>{item}</span>
+            <span key={`${item}-${i}`}>
+              <em>✦</em>
+              {item}
+            </span>
           ))}
         </div>
       </div>

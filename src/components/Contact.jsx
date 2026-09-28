@@ -40,11 +40,11 @@ export default function Contact() {
             engagements. Reach out — I reply within a day, always.
           </p>
           <a
-            href="mailto:rananoumaniqbal@gmail.com"
+            href="mailto:abdulbarimalana@gmail.com"
             className="contact-email"
             data-cursor="hover"
           >
-            rananoumaniqbal@gmail.com <FiArrowUpRight />
+            abdulbarimalana@gmail.com <FiArrowUpRight />
           </a>
 
           <div className="contact-socials">
@@ -56,7 +56,7 @@ export default function Contact() {
               <FiGithub />
             </a>
             <a
-              href="https://www.linkedin.com/in/iamnumaniqbal/"
+              href="https://linkedin.com/in/abdul-bari-531543221"
               data-cursor="hover"
               aria-label="LinkedIn"
             >
